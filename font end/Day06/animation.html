@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .reactangle{
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+            /* transition: all 2s 200ms linear */
+            transition: background-color 1s linear;
+            transition: all 2s linear;
+            transition-property: width height back-ground-color;
+            transition-duration: 2s;
+            transition-delay: 200ms;
+            transition-timing-function: linear;
+        }
+        .reactangle:hover{
+            background-color: red;
+            width: 200px;
+            height: 400px;
+        }
+        .tron1{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            transition: background-color 1s linear;
+           
+        }
+        .tron1:hover{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            transform: rotate(120deg);
+        }
+        .rect{
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            background-color: blue;
+            animation-name: change-many-color;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes change-color {
+            from{
+                background-color: blue;
+            }
+            to{
+                background-color: red;
+            }
+        }
+        @keyframes change-many-color {
+            10%{
+                background-color: green;
+            }
+            30%{
+                background-color: blueviolet;
+            }
+            50%{
+                background-color: black;
+            }
+            70%{
+                background-color: aqua;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="reactangle"></div>
+    <div class="tron1"></div>
+    <div class="rect"></div>
+</body>
+</html>

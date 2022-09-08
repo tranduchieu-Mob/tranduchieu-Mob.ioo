@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box ;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgray;
+}
+#title{ 
+    color: saddlebrown;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.content{
+    line-height: 30px;
+}
+.content1{
+    list-style-type:circle;
+    color: black;
+}
+#paragraph{
+    text-align: center;
+    color: saddlebrown;
+    padding-top: 50px;
+    line-height: 100px;
+}
+.img{
+    padding: 20px;
+}
+.link{
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+.link1 :hover{
+    opacity: 50px;
+    color: gray;
+}
+.link2 :hover{
+    opacity: 50px;
+    color: powderblue;
+}
+.link3 :hover{
+    opacity: 50px;
+    color: palevioletred;
+}
+.link4 :hover{
+    opacity: 50px;
+    color: black;
+}
+.link5 :hover{
+    opacity: 50px;
+    color: blue;
+}
+

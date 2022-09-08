@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+}
+input{
+    width: 100%;
+    font-size: 17px;
+    padding: 14px 16px;
+
+}
+a{
+    text-decoration: none;
+}
+.rect{
+    display: flex;
+    justify-content: center;
+
+}
+input{}
